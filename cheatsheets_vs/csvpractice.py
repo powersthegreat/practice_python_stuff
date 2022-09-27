@@ -8,5 +8,7 @@ names = {"First": ["William", "Matthew", "Brian", "Kathleen"], "Middle Initial":
 
 data_frame_friends = pandas.DataFrame(friends)
 data_frame_names = pandas.DataFrame(names)
-data_frame_friends.to_csv("friends.csv", header = True, index = True)
-data_frame_names.to_csv("names.csv", header = True, index = False)
+# data_frame_friends.to_csv("friends.csv", header = True, index = True)
+# data_frame_names.to_csv("names.csv", header = True, index = False)
+
+print(data_frame_friends)
